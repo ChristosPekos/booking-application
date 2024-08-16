@@ -1,0 +1,9 @@
+{
+  "roomName": "Deluxe Suite",
+  "noOfPersons":"3",
+  "area": "Mykonos",
+  "stars": "4.5",
+  "noOfReviews": "3454",
+  "price": 110,
+  "roomImage": "images/mykonos.jpg"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".Activities.SearchActivity">
+
+<TextView
+    android:id="@+id/select_option"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:text="Select an option"
+    android:layout_marginTop="70dp"
+    android:layout_gravity="center"
+    >
+</TextView>
+
+<Button
+    android:id="@+id/search_activity_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="70sp"
+    android:layout_gravity="center"
+    android:layout_marginTop="100dp"
+    android:text="START"
+    android:textSize="20dp"
+    >
+</Button>
+
+<Button
+    android:id="@+id/edit_config_activity"
+    android:layout_width="wrap_content"
+    android:layout_height="70sp"
+    android:layout_gravity="center"
+    android:layout_marginTop="70dp"
+    android:text="Edit config file"
+    android:textSize="20dp"
+    android:drawableStart="@drawable/baseline_settings_24"
+    >
+</Button>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

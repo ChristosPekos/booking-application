@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Filters_TextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Please enter the desirable filters for the room"
+            android:textColor="#336257"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/region_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:text="Region:" />
+
+            <EditText
+                android:id="@+id/region_edit_text"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:hint="Athens, Rhodes etc" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/availability_start_date_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:text="Availability Start Date:" />
+
+            <TextView
+                android:id="@+id/availability_start_date_finalized"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/select_availability_start_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="SELECT" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/availability_end_date_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:text="Availability End Date:" />
+
+            <TextView
+                android:id="@+id/availability_end_date_finalized"
+                android:layout_width="86dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/select_availability_end_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="SELECT" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/noofpeople_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:text="Number of people:" />
+
+            <EditText
+                android:id="@+id/noofpeople_editText"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/min_price_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Min:"
+                android:layout_marginStart="90dp"
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/min_price_Edit_Text"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/max_price_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Max:"
+                android:layout_marginStart="20dp"
+                >
+            </TextView>
+
+            <EditText
+                android:id="@+id/max_price_Edit_Text"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:inputType="number" />
+
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/price_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:text="Price:" />
+
+            <com.google.android.material.slider.RangeSlider
+                android:id="@+id/price_slider"
+                app:labelBehavior="withinBounds"
+                android:valueFrom="0"
+                android:valueTo="250"
+                android:stepSize="1"
+                app:values="@array/initial_slider_values"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp" />
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/min_stars_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                android:text="Minimum Stars:" />
+
+            <TextView
+                android:id="@+id/current_min_stars"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="2dp"
+                />
+
+            <SeekBar
+                android:id="@+id/stars_seekBar"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:min="0"
+                android:max="50"
+                android:progress="1"
+                >
+            </SeekBar>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="50dp"
+            android:text="Search"
+            android:backgroundTint="#0e629b" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
