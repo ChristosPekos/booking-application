@@ -6,11 +6,18 @@
 
 <h3>Manager</h3>
 
-<img src="https://github.com/ChristosPekos/booking-application/blob/0b715fcd21dc6f06d955fdc219f9b9f39206d966/booking-images/manager-screenshot-1.png" alt="manager-screenshot" width="600" height="500/">
+<img src="https://github.com/ChristosPekos/booking-application/blob/0b715fcd21dc6f06d955fdc219f9b9f39206d966/booking-images/manager-screenshot-1.png" alt="manager-screenshot" width="800" height="500/">
 
-<img src="https://github.com/ChristosPekos/booking-application/blob/0b715fcd21dc6f06d955fdc219f9b9f39206d966/booking-images/manager-screenshot-2.png" alt="project-screenshot" width="600" height="1000/">
+<img src="https://github.com/ChristosPekos/booking-application/blob/0b715fcd21dc6f06d955fdc219f9b9f39206d966/booking-images/manager-screenshot-2.png" alt="project-screenshot" width="800" height="1000/">
 
-<img src="https://github.com/ChristosPekos/booking-application/blob/0b715fcd21dc6f06d955fdc219f9b9f39206d966/booking-images/manager-screenshot-3.png" alt="project-screenshot" width="600" height="500/">
+<img src="https://github.com/ChristosPekos/booking-application/blob/0b715fcd21dc6f06d955fdc219f9b9f39206d966/booking-images/manager-screenshot-3.png" alt="project-screenshot" width="800" height="500/">
+
+<h3>User cli</h3>
+
+<img src="https://github.com/ChristosPekos/booking-application/blob/1fa146fdc893d963add3a46c1b07679e60e7499c/booking-images/user-cli-1.png" alt="project-screenshot" width="800" height="1000/">
+
+<img src="https://github.com/ChristosPekos/booking-application/blob/1fa146fdc893d963add3a46c1b07679e60e7499c/booking-images/user-cli-2.png" alt="project-screenshot" width="800" height="1000/">
+
 
   
   
