@@ -4,9 +4,13 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="ghffg" alt="project-screenshot" width="400" height="400/">
+<h3>Manager</h3>
 
-<img src="gfhhgf" alt="project-screenshot" width="400" height="400/">
+<img src="https://github.com/ChristosPekos/booking-application/blob/0b715fcd21dc6f06d955fdc219f9b9f39206d966/booking-images/manager-screenshot-1.png" alt="manager-screenshot" width="600" height="500/">
+
+<img src="https://github.com/ChristosPekos/booking-application/blob/0b715fcd21dc6f06d955fdc219f9b9f39206d966/booking-images/manager-screenshot-2.png" alt="project-screenshot" width="600" height="1000/">
+
+<img src="https://github.com/ChristosPekos/booking-application/blob/0b715fcd21dc6f06d955fdc219f9b9f39206d966/booking-images/manager-screenshot-3.png" alt="project-screenshot" width="600" height="500/">
 
   
   
